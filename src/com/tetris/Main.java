@@ -12,6 +12,7 @@ import javax.swing.SwingUtilities;
 public class Main {
 
     public static void main(String[] args) {
+
         SwingUtilities.invokeLater(() -> {
             // 1. Cria o Model
             Board board = new Board();
@@ -30,5 +31,6 @@ public class Main {
             gameFrame.setVisible(true);
         });
     }
+    
 }
 
